@@ -5,6 +5,11 @@ const expandClass= "is-expend";
 menuToggle.addEventListener("click",function(){
     menuHeader.classList.add(expandClass);
 });
+document.addEventListener("click",function(event){
+    if(!menuHeader.contains(event.target) && !event.target.matches(".header-toggle")){
+        menuHeader.classList.remove(expandClass)
+    }
+})
 window.addEventListener("click",function(e){
     if(!menuHeader.contains(e.target) && !e.target.matches(".header-toggle")){
         menuHeader.classList.remove(expandClass)
