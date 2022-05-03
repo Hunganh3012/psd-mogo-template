@@ -670,6 +670,9 @@ body, ul, a {
   color: white;
   background-color: #e98483;
 }
+.meetout .meetout-item-desc a {
+  color: #e98483;
+}
 .meetout-item-icon:not(:last-child) {
   border-right: 1px solid #e98483;
 }

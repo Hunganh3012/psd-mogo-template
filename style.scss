@@ -742,6 +742,9 @@ body,ul,a{
             background-color: $primary-color;
         }
     }
+    .meetout-item-desc a{
+        color: $primary-color;
+    }
     &-item-icon:not(:last-child){
         border-right: 1px solid $primary-color;
     }
