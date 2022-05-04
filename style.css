@@ -1751,17 +1751,15 @@ body, ul, a {
 
   .meetout-list {
     margin: 5rem 0;
-    display: grid;
-    grid-template-columns: unset;
-    grid-column-gap: 3rem;
-    grid-auto-flow: column;
-    grid-row-gap: 2.5rem;
-    overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    display: block;
   }
-  .meetout-list::-webkit-scrollbar {
-    display: none;
+
+  .meetout-img {
+    width: 100%;
+  }
+
+  .meetout-item {
+    margin-bottom: 5rem;
   }
 
   .meetout-content-main {

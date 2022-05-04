@@ -1816,19 +1816,40 @@ body,ul,a{
     .slick-slide img {
         margin-bottom: 1rem;  
     }
+    // .meetout-list {
+    //     margin: 5rem 0;
+    //     display: grid;
+    //     grid-template-columns: unset;
+    //     grid-column-gap: 3rem;
+    //     grid-auto-flow: column;
+    //     grid-row-gap: 2.5rem;
+    //     overflow: auto;
+    //     -ms-overflow-style: none;
+    //     scrollbar-width: none;
+    //     &::-webkit-scrollbar{
+    //         display: none;
+    //     }
+    // }
     .meetout-list {
         margin: 5rem 0;
-        display: grid;
-        grid-template-columns: unset;
-        grid-column-gap: 3rem;
-        grid-auto-flow: column;
-        grid-row-gap: 2.5rem;
-        overflow: auto;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        &::-webkit-scrollbar{
-            display: none;
-        }
+        display: block;
+        // display: grid;
+        // grid-template-columns: unset;
+        // grid-column-gap: 3rem;
+        // grid-auto-flow: column;
+        // grid-row-gap: 2.5rem;
+        // overflow: auto;
+        // -ms-overflow-style: none;
+        // scrollbar-width: none;
+        // &::-webkit-scrollbar{
+        //     display: none;
+        // }
+    }
+    .meetout-img{
+        width:100%;
+    }
+    .meetout-item{
+        margin-bottom: 5rem;
     }
     .meetout-content-main {
         font-size: 2rem;
